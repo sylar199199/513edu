@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" /> -->
+    <link rel="icon" href="<%= BASE_URL %>favicon.png">
+    <!-- <link rel="stylesheet" href="https://g.alicdn.com/de/prismplayer/2.8.2/skins/default/aliplayer-min.css" />
+    <script charset="utf-8" type="text/javascript" src="https://g.alicdn.com/de/prismplayer/2.8.2/aliplayer-min.js"></script> -->
+    <% if (process.env.VUE_APP_CURRENTMODE === 'production') { %>
+
+      <% for(var css of htmlWebpackPlugin.options.cdn.css) { %>
+        <link href="<%=css%>" rel="preload" as="style">
+        <link rel="stylesheet" href="<%=css%>" as="style">
+      <% } %>
+      <% for(var js of htmlWebpackPlugin.options.cdn.js) { %>
+        <link href="<%=js%>" rel="preload" as="script">
+        <script src="<%=js%>"></script>
+      <% } %>
+    <% } %>
+    <script src="https://echarts.baidu.com/dist/echarts.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="https://player.alicdn.com/aliplayer/presentation/js/aliplayercomponents.min.js"></script>
+    <title>513在线教育</title>
+    <script type="text/javascript"> 
+      (function () { 
+        var sUserAgent = navigator.userAgent; 
+        if (sUserAgent.indexOf('Android') > -1 || sUserAgent.indexOf('iPhone') > -1 || sUserAgent.indexOf('iPad') > -1 || sUserAgent.indexOf('iPod') > -1 || sUserAgent.indexOf('Symbian') > -1) {
+          location.href = 'https://www.pgyer.com/Xg4F'; 
+        } else {
+        } }
+      )();
+    </script>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but 513tech doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>

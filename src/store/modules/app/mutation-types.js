@@ -1,0 +1,1 @@
+export const SET_IS_COLLEGE_MODE = 'SET_IS_COLLEGE_MODE'

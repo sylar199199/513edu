@@ -1,0 +1,97 @@
+import Vue from 'vue'
+import {
+  Rate,
+  Row,
+  Col,
+  Message,
+  Menu,
+  Input,
+  Select,
+  Option,
+  OptionGroup,
+  DatePicker,
+  Button,
+  ButtonGroup,
+  Form,
+  FormItem,
+  Image,
+  Pagination,
+  Dropdown,
+  DropdownMenu,
+  DropdownItem,
+  Dialog,
+  Link,
+  Tabs,
+  TabPane,
+  Table,
+  TableColumn,
+  Collapse,
+  CollapseItem,
+  Breadcrumb,
+  BreadcrumbItem,
+  Radio,
+  MenuItem,
+  Upload,
+  Steps,
+  Step,
+  Cascader,
+  Switch,
+  Tree,
+  Progress,
+  Loading,
+  Carousel,
+  CarouselItem,
+  TimePicker,
+  Checkbox,
+  CheckboxGroup,
+  RadioGroup,
+} from 'element-ui'
+
+Vue.use(Rate)
+Vue.use(Row)
+Vue.use(Loading)
+Vue.use(Tree)
+Vue.use(Col)
+Vue.use(Input)
+Vue.use(Select)
+Vue.use(Option)
+Vue.use(OptionGroup)
+Vue.use(DatePicker)
+Vue.use(Button)
+Vue.use(ButtonGroup)
+Vue.use(Form)
+Vue.use(FormItem)
+Vue.use(Image)
+Vue.use(Pagination)
+Vue.use(Dialog)
+Vue.use(Dropdown)
+Vue.use(DropdownMenu)
+Vue.use(DropdownItem)
+Vue.use(Link)
+Vue.use(Tabs)
+Vue.use(TabPane)
+Vue.use(Table)
+Vue.use(TableColumn)
+Vue.use(Collapse)
+Vue.use(CollapseItem)
+Vue.use(Breadcrumb)
+Vue.use(BreadcrumbItem)
+Vue.use(Radio)
+Vue.use(Menu)
+Vue.use(MenuItem)
+Vue.use(Upload)
+Vue.use(Steps)
+Vue.use(Step)
+Vue.use(Cascader)
+Vue.use(Switch)
+Vue.use(Progress)
+Vue.use(Carousel)
+Vue.use(CarouselItem)
+Vue.use(TimePicker)
+Vue.use(Checkbox)
+Vue.use(CheckboxGroup)
+Vue.use(RadioGroup)
+
+Vue.prototype.$message = Message
+
+export const $message = Vue.prototype.$message

@@ -1,0 +1,17 @@
+export default {
+  chartVoMap: {},
+  countVoMap: {},
+  allStudyProgressList: [],
+  allStudyProgressTotal: null,
+  scoreCountList: [],
+  courseScoreSumList: {},
+  allCourseScoreList: [],
+  allCourseScoreTotal: null,
+  findExamSubjectChoicesList: [],
+  findExamSubjectChoicesTotal: '',
+  findExamSubjectChoicesPageNum: '',
+  examSubjectChoicesIdList: '',
+  findExamExaminationList: [],
+  findExamExaminationTotal: null,
+  subjectId: null,
+}

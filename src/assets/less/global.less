@@ -1,0 +1,115 @@
+// 包含一些全局样式 以及 element组件
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+// course-detail tab component style
+.c-course-tabs {
+  .tabs > .is-top {
+    margin-bottom: 40px;
+    .el-tabs__item {
+      color: #333333;
+    }
+  }
+}
+// 详情页公共样式  课程列表，课程公告，课程章节，在线问答，等等
+.course-bulletin-notice {
+  display: flex;
+  position: relative;
+  .course-bulletin-green {
+    display: inline-block;
+    width: 4px;
+    height: 21px;
+    background: @maincolor;
+    margin-right: 7px;
+  }
+  .course-bulletin-notice {
+    font-size: 18px;
+    font-family: SourceHanSansCN-Medium;
+    font-weight: 500;
+    color: #333;
+  }
+}
+
+.c-video-side .list-content .el-collapse-item__header {
+  padding-left: 30px;
+}
+
+.claerfix {
+  .clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: ' ';
+    clear: both;
+    height: 0;
+  }
+  .clearfix {
+    *zoom: 1;
+  }
+}
+
+// 头像droplist 相关
+.drop-down-list {
+  top: 66px !important;
+}
+
+// 轮播图
+.banner {
+  width: 100%;
+  height: 560px;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  .el-carousel--horizontal {
+    height: 560px;
+    position: relative;
+    .el-carousel__container {
+      height: 560px;
+    }
+    .el-carousel__indicators--outside {
+      position: absolute;
+    }
+  }
+  .el-carousel__item h3 {
+    color: #475669;
+    font-size: 18px;
+    opacity: 0.75;
+    line-height: 300px;
+    margin: 0;
+  }
+
+  .el-carousel__item:nth-child(2n) {
+    background-color: #99a9bf;
+  }
+
+  .el-carousel__item:nth-child(2n + 1) {
+    background-color: #d3dce6;
+  }
+}
+
+.my-order-title {
+  .demo-form-inline {
+    display: flex;
+    .el-form-item {
+      display: flex;
+      .el-form-item__label {
+        width: 100px !important;
+      }
+    }
+  }
+}
+
+.question-el-div {
+  .question-el-check {
+    margin-top: 20px;
+    .el-radio__label {
+      display: inline-block;
+      white-space: pre-wrap;
+      padding: 0;
+      margin: 0 15px;
+      line-height: 20px;
+    }
+  }
+}
